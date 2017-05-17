@@ -1,7 +1,7 @@
 
 
 
-<footer>copyright</footer>
+<footer>&copy copyright</footer>
 
 
 

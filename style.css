@@ -1,3 +1,71 @@
-/* line 5, style.scss */
-.com h1 {
-  color: red; }
+/* line 6, style.scss */
+.nav-bar {
+  clear: both;
+  height: 70px; }
+
+/* line 12, style.scss */
+.logo {
+  color: #40bfc3;
+  margin-left: 30px;
+  float: left;
+  padding-top: 7px; }
+
+/* line 21, style.scss */
+.nav-menu {
+  float: right; }
+  /* line 24, style.scss */
+  .nav-menu ul {
+    padding-top: 30px;
+    margin-right: 10px; }
+  /* line 31, style.scss */
+  .nav-menu li {
+    float: left;
+    margin-right: 30px;
+    list-style: none; }
+  /* line 37, style.scss */
+  .nav-menu a {
+    color: #333;
+    font-size: 11px;
+    font-family: serif; }
+
+/* line 44, style.scss */
+.top-image {
+  background-image: url(images/lap-top3.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 100%; }
+  /* line 50, style.scss */
+  .top-image h2 {
+    padding-top: 177px;
+    padding-bottom: 25px;
+    color: #FFF;
+    text-align: center; }
+  /* line 57, style.scss */
+  .top-image p {
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: serif;
+    letter-spacing: 1px; }
+  /* line 65, style.scss */
+  .top-image a {
+    color: #FFF;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    width: 300px;
+    margin: 0 auto;
+    font-family: serif; }
+
+/* line 103, style.scss */
+footer {
+  background: #0f2149;
+  color: #CCC;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: serif; }
