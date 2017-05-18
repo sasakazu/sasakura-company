@@ -28,26 +28,26 @@
     font-size: 11px;
     font-family: serif; }
 
-/* line 44, style.scss */
+/* line 45, style.scss */
 .top-image {
   background-image: url(images/lap-top3.jpg);
   background-size: cover;
   height: 600px;
   width: 100%; }
-  /* line 50, style.scss */
+  /* line 51, style.scss */
   .top-image h2 {
     padding-top: 177px;
     padding-bottom: 25px;
     color: #FFF;
     text-align: center; }
-  /* line 57, style.scss */
+  /* line 58, style.scss */
   .top-image p {
     color: #FFF;
     text-align: center;
     padding-bottom: 100px;
     font-family: serif;
     letter-spacing: 1px; }
-  /* line 65, style.scss */
+  /* line 66, style.scss */
   .top-image a {
     color: #FFF;
     display: block;
@@ -59,8 +59,73 @@
     width: 300px;
     margin: 0 auto;
     font-family: serif; }
+  /* line 79, style.scss */
+  .top-image a:hover {
+    color: #000 !important;
+    background-color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease-out; }
 
-/* line 103, style.scss */
+/* line 94, style.scss */
+.service-wrapper {
+  margin-top: 50px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px; }
+  /* line 101, style.scss */
+  .service-wrapper h2 {
+    text-align: center; }
+  /* line 105, style.scss */
+  .service-wrapper p {
+    text-align: center;
+    color: #999;
+    font-family: serif;
+    margin-bottom: 50px; }
+
+/* line 113, style.scss */
+.service-contents {
+  width: 33.33333%;
+  float: left; }
+  /* line 117, style.scss */
+  .service-contents h4 {
+    text-align: center; }
+  /* line 121, style.scss */
+  .service-contents p {
+    padding: 22px 11px 54px;
+    text-align: left; }
+  /* line 127, style.scss */
+  .service-contents img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+
+/* line 140, style.scss */
+.portofolio-wrapper {
+  background-color: #F5F5F5;
+  width: 100%;
+  clear: both;
+  padding-bottom: 100px; }
+  /* line 146, style.scss */
+  .portofolio-wrapper h2 {
+    text-align: center;
+    margin-top: 50px; }
+  /* line 151, style.scss */
+  .portofolio-wrapper p {
+    text-align: center;
+    color: #999;
+    margin-bottom: 50px; }
+
+/* line 159, style.scss */
+.portofolio-contents {
+  width: 25%; }
+  /* line 162, style.scss */
+  .portofolio-contents img {
+    width: 250px;
+    height: 250px; }
+
+/* line 188, style.scss */
 footer {
   background: #0f2149;
   color: #CCC;
