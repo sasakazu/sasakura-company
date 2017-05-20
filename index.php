@@ -88,23 +88,40 @@
 
 
 
-    <div class="col-md-6">
-      <img src="<?php bloginfo('template_directory'); ?>/images/wordpress1.png">
+    <div class="col-md-4 about-contents">
+      <img src="<?php bloginfo('template_directory'); ?>/images/about.png">
       <p>私たちについて</p>
       <h2>About</h2>
 
     </div>
 
 
-    <div class="col-md-6">
+    <div class="col-md-8 about-contents">
 
-    </div>
+      <table class="table">
+          <th>社名</th>
+          <td>Sasakura company</td>
+      </table>
 
+      <table class="table">
+          <th>事業内容</th>
+          <td>ウェブ制作、ワードプレス、SEO、更新</td>
+      </table>
 
+      <table class="table">
+          <th>所在地</th>
+          <td>滋賀県草津市青地町</td>
+      </table>
+
+      <table class="table">
+          <th>社名</th>
+          <td>Sasakura company</td>
+      </table>
 
   </div>
-</div>
 
+</div>
+</div>
 
 
 

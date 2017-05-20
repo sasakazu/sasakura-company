@@ -1,4 +1,9 @@
 
+// common
+
+
+
+
 
 // header.php
 
@@ -13,6 +18,8 @@
 .navbar-brand {
   color: rgb(63, 210, 12)!important;
   font-size: 23px!important;
+  font-family: serif;
+  letter-spacing: 1px;
 }
 
 .navbar-right {
@@ -30,11 +37,12 @@
 
 
 
+
+
 .top-image {
   background-image: url(images/lap-top3.jpg);
   background-size: cover;
   height: 600px;
-  // width: 100%;
 
   h2 {
     padding-top: 177px;
@@ -42,6 +50,8 @@
     color: #FFF;
     text-align: center;
     margin-top: 0;
+    font-family: serif;
+    font-size: 43px;
   }
 
   p {
@@ -85,7 +95,7 @@
 
   h2 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
   p {
@@ -119,7 +129,7 @@
 
 }
 
-// portofolio
+// we make it
 
 .portofolio-wrapper {
   background-color: #F5F5F5;
@@ -128,7 +138,7 @@
 
   h2 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   p {
@@ -155,15 +165,55 @@
 // about
 
 .about-wrapper {
-   h2 {
-     text-align: center;
-   }
+  margin-bottom: 100px;
 
-   p {
-     text-align: center;
-     font-family: serif;
-     color: #666;
-   }
+}
+
+
+.about-contents {
+  margin-top: 100px;
+  img {
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    margin-top: 22px;
+  }
+}
+
+.table {
+  margin-bottom: 0!important;
+
+  table {
+    width: 100%;
+  }
+
+  th {
+    width: 30%;
+    text-align: left!important;
+    font-family: serif;
+    padding-top: 17px!important;
+    padding-bottom: 17px!important;
+  }
+  td {
+    width: 70%;
+    color: #666;
+    font-family: serif;
+    padding-top: 17px!important;
+    padding-bottom: 17px!important;
+  }
 }
 
 

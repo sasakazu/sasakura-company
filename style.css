@@ -1,4 +1,4 @@
-/* line 5, style.scss */
+/* line 10, style.scss */
 .navbar-default {
   margin-bottom: 0 !important;
   background-color: #fff !important;
@@ -6,36 +6,40 @@
   padding-top: 15px;
   padding-bottom: 15px; }
 
-/* line 13, style.scss */
+/* line 18, style.scss */
 .navbar-brand {
   color: #3fd20c !important;
-  font-size: 23px !important; }
+  font-size: 23px !important;
+  font-family: serif;
+  letter-spacing: 1px; }
 
-/* line 20, style.scss */
+/* line 27, style.scss */
 .navbar-right li a {
   font-size: 11px;
   font-family: serif; }
 
-/* line 33, style.scss */
+/* line 42, style.scss */
 .top-image {
   background-image: url(images/lap-top3.jpg);
   background-size: cover;
   height: 600px; }
-  /* line 39, style.scss */
+  /* line 47, style.scss */
   .top-image h2 {
     padding-top: 177px;
     padding-bottom: 25px;
     color: #FFF;
     text-align: center;
-    margin-top: 0; }
-  /* line 47, style.scss */
+    margin-top: 0;
+    font-family: serif;
+    font-size: 43px; }
+  /* line 57, style.scss */
   .top-image p {
     color: #FFF;
     text-align: center;
     padding-bottom: 100px;
     font-family: serif;
     letter-spacing: 1px; }
-  /* line 55, style.scss */
+  /* line 65, style.scss */
   .top-image a {
     color: #FFF;
     display: block;
@@ -47,32 +51,32 @@
     width: 300px;
     margin: 0 auto;
     font-family: serif; }
-  /* line 68, style.scss */
+  /* line 78, style.scss */
   .top-image a:hover {
     color: #000 !important;
     background-color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
 
-/* line 86, style.scss */
+/* line 96, style.scss */
 .service-wrapper h2 {
   text-align: center;
-  margin-top: 50px; }
-/* line 91, style.scss */
+  margin-top: 60px; }
+/* line 101, style.scss */
 .service-wrapper p {
   text-align: center;
   color: #999;
   font-family: serif;
   margin-bottom: 55px; }
 
-/* line 101, style.scss */
+/* line 111, style.scss */
 .service-contents h4 {
   text-align: center; }
-/* line 105, style.scss */
+/* line 115, style.scss */
 .service-contents p {
   padding: 22px 11px 54px;
   text-align: left; }
-/* line 111, style.scss */
+/* line 121, style.scss */
 .service-contents img {
   width: 70px;
   height: 70px;
@@ -80,41 +84,78 @@
   margin: 0 auto;
   margin-bottom: 20px; }
 
-/* line 124, style.scss */
+/* line 134, style.scss */
 .portofolio-wrapper {
   background-color: #F5F5F5;
   padding-bottom: 100px; }
-  /* line 129, style.scss */
+  /* line 139, style.scss */
   .portofolio-wrapper h2 {
     text-align: center;
-    margin-top: 50px; }
-  /* line 134, style.scss */
+    margin-top: 70px; }
+  /* line 144, style.scss */
   .portofolio-wrapper p {
     text-align: center;
     color: #999;
     margin-bottom: 50px;
     font-family: serif; }
 
-/* line 143, style.scss */
+/* line 153, style.scss */
 .portofolio-contents {
   margin-bottom: 30px; }
-  /* line 146, style.scss */
+  /* line 156, style.scss */
   .portofolio-contents img {
     width: 220px;
     height: 220px;
     display: block;
     margin: 0 auto; }
 
-/* line 158, style.scss */
-.about-wrapper h2 {
-  text-align: center; }
-/* line 162, style.scss */
-.about-wrapper p {
-  text-align: center;
-  font-family: serif;
-  color: #666; }
+/* line 167, style.scss */
+.about-wrapper {
+  margin-bottom: 100px; }
 
-/* line 189, style.scss */
+/* line 173, style.scss */
+.about-contents {
+  margin-top: 100px; }
+  /* line 175, style.scss */
+  .about-contents img {
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: 0 auto; }
+  /* line 182, style.scss */
+  .about-contents h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 40px; }
+  /* line 188, style.scss */
+  .about-contents p {
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    margin-top: 22px; }
+
+/* line 196, style.scss */
+.table {
+  margin-bottom: 0 !important; }
+  /* line 199, style.scss */
+  .table table {
+    width: 100%; }
+  /* line 203, style.scss */
+  .table th {
+    width: 30%;
+    text-align: left !important;
+    font-family: serif;
+    padding-top: 17px !important;
+    padding-bottom: 17px !important; }
+  /* line 210, style.scss */
+  .table td {
+    width: 70%;
+    color: #666;
+    font-family: serif;
+    padding-top: 17px !important;
+    padding-bottom: 17px !important; }
+
+/* line 239, style.scss */
 footer {
   background: #0f2149;
   color: #CCC;
