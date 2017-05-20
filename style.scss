@@ -2,57 +2,46 @@
 
 // header.php
 
-
-.nav-bar {
-  clear: both;
-  height: 70px;
-
+.navbar-default {
+    margin-bottom: 0!important;
+    background-color: #fff!important;
+    border-color: #fff!important;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.logo {
-  color: #40bfc3;
-  margin-left: 30px;
-  float: left;
-  padding-top: 7px;
+.navbar-brand {
+  color: rgb(63, 210, 12)!important;
+  font-size: 23px!important;
+}
 
-  }
-
-
-.nav-menu {
-  float: right;
-
-  ul {
-    padding-top: 30px;
-    margin-right: 10px;
-
-
-  }
-
+.navbar-right {
   li {
-    float: left;
-    margin-right: 30px;
-    list-style: none;
+    a {
+      font-size: 11px;
+      font-family: serif;
+
+    }
   }
-
-   a {
-     color: #333;
-     font-size: 11px;
-     font-family: serif;
-   }
-
 }
+
+
+
+
+
 
 .top-image {
   background-image: url(images/lap-top3.jpg);
   background-size: cover;
   height: 600px;
-  width: 100%;
+  // width: 100%;
 
   h2 {
     padding-top: 177px;
     padding-bottom: 25px;
     color: #FFF;
     text-align: center;
+    margin-top: 0;
   }
 
   p {
@@ -92,27 +81,22 @@
 // service
 
 .service-wrapper {
-  margin-top: 50px;
-  width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
 
 
   h2 {
     text-align: center;
+    margin-top: 50px;
   }
 
   p {
     text-align: center;
     color: #999;
     font-family: serif;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
   }
 }
 
 .service-contents {
-  width: 33.33333%;
-  float: left;
 
   h4 {
     text-align: center;
@@ -139,8 +123,7 @@
 
 .portofolio-wrapper {
   background-color: #F5F5F5;
-  width: 100%;
-  clear: both;
+
   padding-bottom: 100px;
 
   h2 {
@@ -152,17 +135,35 @@
     text-align: center;
     color: #999;
     margin-bottom: 50px;
+    font-family: serif;
   }
 
 }
 
 .portofolio-contents {
+  margin-bottom: 30px;
 
-  width: 25%;
   img {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
   }
+}
+
+
+// about
+
+.about-wrapper {
+   h2 {
+     text-align: center;
+   }
+
+   p {
+     text-align: center;
+     font-family: serif;
+     color: #666;
+   }
 }
 
 

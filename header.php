@@ -12,103 +12,45 @@
     <?php wp_head(); ?>
 
 
-<div class="nav-bar">
 
-  <h2 class="logo">Sasakura Company</h2>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sasakura Company</a>
+    </div>
 
-<div class="nav-menu">
-
-  <ul>
-    <li><a href="#">サービス</a></li>
-    <li><a href="#">ポートフォリオ</a></li>
-    <li><a href="#">会社概要</a></li>
-    <li><a href="#">ブログ</a></li>
-    <li><a href="#">コンタクト</a></li>
-  </ul>
-</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
-</div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">サービス</a></li>
+        <li><a href="#">ポートフォリオ</a></li>
+        <li><a href="#">会社概要</a></li>
+        <li><a href="#">ブログ</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
 <div class="top-image">
+
+
 
   <h2>Sasakura Company</h2>
   <p>Sasakura CompanyはWordpressやWeb制作、デザインを行なっている会社です。
   </p>
   <a href="#">お問い合わせ</a>
 
-
-</div>
-
-<div class="service-wrapper">
-  <h2>Service</h2>
-  <p>Sasakura companyが提供するサービスを紹介します。</p>
-
-  <div class="service-contents">
-    <img src="<?php bloginfo('template_directory'); ?>/images/wordpress1.png">
-
-    <h4>ウェブサイト制作</h4>
-    <p>WordPressやCSSフレームワーク（Bootstrap）を活用したスマートフォン対応のWebサイトの構築を行います。</p>
-  </div>
-
-  <div class="service-contents">
-    <img src="<?php bloginfo('template_directory'); ?>/images/palet.png">
-
-    <h4>デザイン</h4>
-    <p>ウェブサイトやスマホサイト、ステッカー、パッケージ写真、ユニフォームなどのデザインを行っています。</p>
-  </div>
-
-  <div class="service-contents">
-    <img src="<?php bloginfo('template_directory'); ?>/images/lego.png">
-
-    <h4>その他ウェブ作業</h4>
-    <p>サイトの更新作業、ブログの投稿、ネットショッピングへの出品作業をしています。
-        クラウドワークスやランサーズで受注しています。
-    </p>
-  </div>
-
-</div>
-
-
-<div class="portofolio-wrapper row">
-
-  <div class="container">
-
-
-  <h2>We Make it</h2>
-  <p>Sasakura company が制作してきた作品です</p>
-
-    <div class="portofolio-contents col-md-3">
-      <a href="http://konboku.com/">
-        <img src="<?php bloginfo('template_directory'); ?>/images/utu-blog2.jpg" class="img-rounded">
-
-      </a>
-    </div>
-
-
-    <div class="portofolio-contents col-md-3">
-      <a href="http://konboku.com/">
-        <img src="<?php bloginfo('template_directory'); ?>/images/utu-blog2.jpg" class="img-rounded">
-
-      </a>
-    </div>
-
-    <div class="portofolio-contents col-md-3">
-      <a href="http://konboku.com/">
-        <img src="<?php bloginfo('template_directory'); ?>/images/utu-blog2.jpg" class="img-rounded">
-
-      </a>
-    </div>
-
-  </div>
-
-
-
-</div>
-
-
-<div class="about-wrapper">
-
-  <h2>About</h2>
 
 </div>
