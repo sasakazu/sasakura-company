@@ -217,6 +217,38 @@
 }
 
 
+// contact
+
+
+.contact-wrapper {
+    background-color: #F5F5F5;
+    padding-bottom: 100px;
+
+
+  h2 {
+    font-family: serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+}
+
+.contact-contents {
+  width: 50%;
+  margin: 0 auto;
+
+
+button, input, select, textarea {
+
+    width: 500px!important;
+  }
+
+  label {
+    padding-bottom: 5px;
+  }
+
+}
+
 
 
 

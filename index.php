@@ -4,7 +4,9 @@
 
 
 
-<div class="service-wrapper">
+
+
+<div class="service-wrapper" id="servise">
   <div class="container">
 
   <h2>Service</h2>
@@ -39,7 +41,7 @@
 </div>
 
 
-<div class="portofolio-wrapper">
+<div class="portofolio-wrapper" id="portofolio">
 
   <div class="container">
 
@@ -83,7 +85,7 @@
 </div>
 
 
-<div class="about-wrapper">
+<div class="about-wrapper" id="about">
   <div class="container">
 
 
@@ -104,6 +106,11 @@
       </table>
 
       <table class="table">
+          <th>代表</th>
+          <td>笹倉一也</td>
+      </table>
+
+      <table class="table">
           <th>事業内容</th>
           <td>ウェブ制作、ワードプレス、SEO、更新</td>
       </table>
@@ -113,14 +120,30 @@
           <td>滋賀県草津市青地町</td>
       </table>
 
+
+
       <table class="table">
-          <th>社名</th>
-          <td>Sasakura company</td>
+        <th></th>
+        <td></td>
       </table>
 
   </div>
 
 </div>
+</div>
+
+
+<div class="contact-wrapper" id="contact">
+  <div class="container">
+
+    <h2>CONTACT</h2>
+
+    <div class="contact-contents">
+      <?php echo do_shortcode('[contact-form-7 id="36" title="コンタクトフォーム 1"]'); ?>
+
+    </div>
+
+  </div>
 </div>
 
 
