@@ -10,14 +10,14 @@
   <body>
 
     <?php wp_head(); ?>
-    
+
     <script>
   //スムーズスクロール
   jQuery(function(){
      // #で始まるアンカーをクリックした場合に処理
      jQuery('a[href^=#]').click(function() {
       // スクロールの速度
-      var speed = 400; // ミリ秒
+      var speed = 600; // ミリ秒
       // アンカーの値取得
       var href= jQuery(this).attr("href");
       // 移動先を取得
@@ -42,7 +42,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Sasakura Company</a>
+      <a class="navbar-brand" href="<?php echo home_url( '/' ); ?>">Sasakura Company</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
@@ -51,7 +51,7 @@
         <li><a href="#servise">サービス</a></li>
         <li><a href="#portofolio">ポートフォリオ</a></li>
         <li><a href="#about">会社概要</a></li>
-        <li><a href="#">ブログ</a></li>
+        <li><a href="http://konboku.com/" target="_blank">ブログ</a></li>
         <li><a href="#contact">お問い合わせ</a></li>
 
       </ul>
@@ -67,7 +67,7 @@
   <h2>Sasakura Company</h2>
   <p>Sasakura CompanyはWordpressやWeb制作、デザインを行なっている会社です。
   </p>
-  <a href="#">お問い合わせ</a>
+  <a href="#contact">お問い合わせ</a>
 
 
 </div>
