@@ -14,3 +14,6 @@ wp_enqueue_script( 'bootstrap-script', get_template_directory_uri() . '/lib/boot
 }
 
 add_action( 'wp_enqueue_scripts', 'my_bootstrap_scripts' );
+
+
+add_theme_support( 'menus' );

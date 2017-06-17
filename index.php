@@ -50,8 +50,8 @@
   <p>Sasakura company が制作してきた作品です</p>
 
     <div class="portofolio-contents col-sm-6 col-md-3">
-      <a href="" target="_blank">
-        <img src="<?php bloginfo('template_directory'); ?>/images/commingsoon.png" class="img-rounded">
+      <a href="http://konboku.com/" target="_blank">
+        <img src="<?php bloginfo('template_directory'); ?>/images/runaway.png" class="img-rounded">
 
       </a>
     </div>

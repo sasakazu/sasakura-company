@@ -48,11 +48,22 @@
 
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#servise">サービス</a></li>
+          <li>
+            <?php wp_nav_menu(); ?>
+
+          </li>
+
+
+
+        <!-- <li><a href="#servise">サービス</a></li>
         <li><a href="#portofolio">ポートフォリオ</a></li>
         <li><a href="#about">会社概要</a></li>
         <li><a href="http://konboku.com/" target="_blank">ブログ</a></li>
         <li><a href="#contact">お問い合わせ</a></li>
+        <li><a href="/index.php/categories/blog/" target="_blank">ブログ</a></li> -->
+
+
+
 
       </ul>
     </div>
