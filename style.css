@@ -1,4 +1,8 @@
-/* line 10, style.scss */
+/* line 4, style.scss */
+body {
+  word-wrap: break-word !important; }
+
+/* line 13, style.scss */
 .navbar-default {
   margin-bottom: 0 !important;
   background-color: #fff !important;
@@ -6,24 +10,24 @@
   padding-top: 15px;
   padding-bottom: 15px; }
 
-/* line 18, style.scss */
+/* line 21, style.scss */
 .navbar-brand {
   color: #3fd20c !important;
   font-size: 23px !important;
   font-family: serif;
   letter-spacing: 1px; }
 
-/* line 27, style.scss */
+/* line 30, style.scss */
 .navbar-right li a {
   font-size: 11px;
   font-family: serif; }
 
-/* line 42, style.scss */
+/* line 45, style.scss */
 .top-image {
   background-image: url(images/lap-top2.jpg);
   background-size: cover;
   height: 600px; }
-  /* line 47, style.scss */
+  /* line 50, style.scss */
   .top-image h2 {
     padding-top: 177px;
     padding-bottom: 25px;
@@ -32,14 +36,14 @@
     margin-top: 0;
     font-family: serif;
     font-size: 43px; }
-  /* line 57, style.scss */
+  /* line 60, style.scss */
   .top-image p {
     color: #FFF;
     text-align: center;
     padding-bottom: 100px;
     font-family: serif;
     letter-spacing: 1px; }
-  /* line 65, style.scss */
+  /* line 68, style.scss */
   .top-image a {
     color: #FFF;
     display: block;
@@ -51,32 +55,32 @@
     width: 300px;
     margin: 0 auto;
     font-family: serif; }
-  /* line 78, style.scss */
+  /* line 81, style.scss */
   .top-image a:hover {
     color: #000 !important;
     background-color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
 
-/* line 96, style.scss */
+/* line 99, style.scss */
 .service-wrapper h2 {
   text-align: center;
   margin-top: 60px; }
-/* line 101, style.scss */
+/* line 104, style.scss */
 .service-wrapper p {
   text-align: center;
   color: #999;
   font-family: serif;
   margin-bottom: 55px; }
 
-/* line 111, style.scss */
+/* line 114, style.scss */
 .service-contents h4 {
   text-align: center; }
-/* line 115, style.scss */
+/* line 118, style.scss */
 .service-contents p {
   padding: 22px 11px 54px;
   text-align: left; }
-/* line 121, style.scss */
+/* line 124, style.scss */
 .service-contents img {
   width: 70px;
   height: 70px;
@@ -84,70 +88,70 @@
   margin: 0 auto;
   margin-bottom: 20px; }
 
-/* line 134, style.scss */
+/* line 137, style.scss */
 .portofolio-wrapper {
   background-color: #F5F5F5;
   padding-bottom: 100px; }
-  /* line 139, style.scss */
+  /* line 142, style.scss */
   .portofolio-wrapper h2 {
     text-align: center;
     margin-top: 70px; }
-  /* line 144, style.scss */
+  /* line 147, style.scss */
   .portofolio-wrapper p {
     text-align: center;
     color: #999;
     margin-bottom: 50px;
     font-family: serif; }
 
-/* line 153, style.scss */
+/* line 156, style.scss */
 .portofolio-contents {
   margin-bottom: 30px; }
-  /* line 156, style.scss */
+  /* line 159, style.scss */
   .portofolio-contents img {
     width: 220px;
     height: 220px;
     display: block;
     margin: 0 auto; }
 
-/* line 167, style.scss */
+/* line 170, style.scss */
 .about-wrapper {
   margin-bottom: 100px; }
 
-/* line 173, style.scss */
+/* line 176, style.scss */
 .about-contents {
   margin-top: 100px; }
-  /* line 175, style.scss */
+  /* line 178, style.scss */
   .about-contents img {
     width: 33px;
     height: 33px;
     display: block;
     margin: 0 auto; }
-  /* line 182, style.scss */
+  /* line 185, style.scss */
   .about-contents h2 {
     text-align: center;
     font-family: serif;
     font-size: 40px; }
-  /* line 188, style.scss */
+  /* line 191, style.scss */
   .about-contents p {
     text-align: center;
     font-size: 10px;
     color: #666;
     margin-top: 22px; }
 
-/* line 196, style.scss */
+/* line 199, style.scss */
 .table {
   margin-bottom: 0 !important; }
-  /* line 199, style.scss */
+  /* line 202, style.scss */
   .table table {
     width: 100%; }
-  /* line 203, style.scss */
+  /* line 206, style.scss */
   .table th {
     width: 30%;
     text-align: left !important;
     font-family: serif;
     padding-top: 17px !important;
     padding-bottom: 17px !important; }
-  /* line 210, style.scss */
+  /* line 213, style.scss */
   .table td {
     width: 70%;
     color: #666;
@@ -155,29 +159,68 @@
     padding-top: 17px !important;
     padding-bottom: 17px !important; }
 
-/* line 223, style.scss */
+/* line 226, style.scss */
 .contact-wrapper {
   background-color: #F5F5F5;
   padding-bottom: 100px; }
-  /* line 228, style.scss */
+  /* line 231, style.scss */
   .contact-wrapper h2 {
     font-family: serif;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px; }
 
-/* line 236, style.scss */
+/* line 239, style.scss */
 .contact-contents {
   width: 50%;
   margin: 0 auto; }
-  /* line 241, style.scss */
+  /* line 244, style.scss */
   .contact-contents button, .contact-contents input, .contact-contents select, .contact-contents textarea {
     width: 500px !important; }
-  /* line 246, style.scss */
+  /* line 249, style.scss */
   .contact-contents label {
     padding-bottom: 5px; }
 
-/* line 271, style.scss */
+/* line 258, style.scss */
+.single-wrapper {
+  margin-top: 70px;
+  margin-bottom: 150px; }
+  /* line 263, style.scss */
+  .single-wrapper h2 {
+    margin-bottom: 50px;
+    color: #333; }
+  /* line 268, style.scss */
+  .single-wrapper p {
+    color: #666;
+    margin-left: 50px;
+    font-size: 20px; }
+  /* line 274, style.scss */
+  .single-wrapper small {
+    margin-left: 30px;
+    font-size: 13px; }
+
+/* line 283, style.scss */
+#blog-title {
+  margin-bottom: 77px;
+  color: #333;
+  letter-spacing: 2px; }
+
+/* line 289, style.scss */
+.blog-wrapper {
+  margin-bottom: 100px; }
+  /* line 293, style.scss */
+  .blog-wrapper a {
+    margin-bottom: 20px; }
+  /* line 297, style.scss */
+  .blog-wrapper h3 {
+    font-family: serif;
+    margin-left: 30px; }
+  /* line 302, style.scss */
+  .blog-wrapper small {
+    float: right;
+    font-size: 13px; }
+
+/* line 317, style.scss */
 footer {
   background: #0f2149;
   color: #CCC;
@@ -185,4 +228,7 @@ footer {
   padding-bottom: 50px;
   text-align: center;
   letter-spacing: 1px;
-  font-family: serif; }
+  font-family: serif;
+  position: relative;
+  bottom: 0;
+  width: 100%; }

@@ -5,6 +5,21 @@
 
 
 
+<div class="top-image">
+
+
+
+  <h2>Sasakura Company</h2>
+  <p>Sasakura CompanyはWordpressやWeb制作、デザインを行なっている会社です。
+  </p>
+  <a href="#contact">お問い合わせ</a>
+
+
+</div>
+
+
+
+
 
 <div class="service-wrapper" id="servise">
   <div class="container">

@@ -2,7 +2,8 @@
 // common
 
 body {
-  
+  word-wrap: break-word!important;
+
 }
 
 
@@ -252,15 +253,58 @@ button, input, select, textarea {
 }
 
 
+// single.php
+
+.single-wrapper {
+
+  margin-top: 70px;
+  margin-bottom: 150px;
+
+  h2 {
+    margin-bottom: 50px;
+    color: #333;
+  }
+
+  p {
+    color: #666;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+
+  small {
+    margin-left: 30px;
+    font-size: 13px;
+  }
+}
 
 
+// category-blog.php
 
+#blog-title {
+  margin-bottom: 77px;
+  color: #333;
+  letter-spacing: 2px;
+}
 
+.blog-wrapper {
 
+  margin-bottom: 100px;
 
+  a {
+    margin-bottom: 20px;
+  }
 
+  h3 {
+    font-family: serif;
+    margin-left: 30px;
+  }
 
+  small {
+    float: right;
+    font-size: 13px;
+  }
 
+}
 
 
 
@@ -278,4 +322,8 @@ footer {
   text-align: center;
   letter-spacing: 1px;
   font-family: serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
 }

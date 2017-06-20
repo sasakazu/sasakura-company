@@ -46,39 +46,16 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
+        <?php
 
-      <ul class="nav navbar-nav navbar-right">
-          <li>
-            <?php wp_nav_menu(); ?>
+        wp_nav_menu(
+            array(
+              'menu_class' => 'nav navbar-nav navbar-right'
+          )
+        );
 
-          </li>
+        ?>
 
-
-
-        <!-- <li><a href="#servise">サービス</a></li>
-        <li><a href="#portofolio">ポートフォリオ</a></li>
-        <li><a href="#about">会社概要</a></li>
-        <li><a href="http://konboku.com/" target="_blank">ブログ</a></li>
-        <li><a href="#contact">お問い合わせ</a></li>
-        <li><a href="/index.php/categories/blog/" target="_blank">ブログ</a></li> -->
-
-
-
-
-      </ul>
     </div>
   </div>
 </nav>
-
-
-<div class="top-image">
-
-
-
-  <h2>Sasakura Company</h2>
-  <p>Sasakura CompanyはWordpressやWeb制作、デザインを行なっている会社です。
-  </p>
-  <a href="#contact">お問い合わせ</a>
-
-
-</div>
